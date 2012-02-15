@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   s.add_runtime_dependency("builder")
-  s.add_runtime_dependency("activesupport")
+  s.add_runtime_dependency("activesupport", ">= 2.3.14")
 
   s.add_development_dependency("actionpack",    "~> 2.3.8")
   s.add_development_dependency("activerecord",  "~> 2.3.8")
